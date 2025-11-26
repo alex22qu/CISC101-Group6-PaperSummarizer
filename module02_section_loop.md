@@ -1,5 +1,9 @@
 # Module 2: Section Loop
 
+### Change log
+- 2025-11-24: Added section-length rules, summary-level handling, and standardized formatting caps. Refined evidence-mode enforcement and simplified short-section behavior.
+
+---
 ## Purpose
 Process each section of the research paper and generate summaries that follow configuration rules.
 
@@ -29,3 +33,4 @@ Process each section of the research paper and generate summaries that follow co
    - No hallucinated claims
    - Consistent Markdown structure
 4. Append both summary and warnings to module output.
+
