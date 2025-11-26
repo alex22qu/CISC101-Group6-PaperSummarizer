@@ -1,5 +1,9 @@
 # Module 3: Guardrails
 
+### Change log
+- 2025-11-24: Added hallucination guardrails, chunking logic, and warning templates. Cleaned up evidence-only behavior and standardized short-section warnings.
+
+---
 ## Purpose
 Ensure summaries stay strictly grounded in the provided text, prevent hallucinations, and manage long input sections safely.
 
@@ -36,3 +40,4 @@ The module must generate standardized warnings:
 ## Overall Behavior
 - Guardrails run immediately before summarization.
 - Any violation blocks the section summary until corrected.
+
