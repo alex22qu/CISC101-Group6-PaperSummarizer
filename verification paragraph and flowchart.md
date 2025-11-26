@@ -6,7 +6,7 @@ The generated Research Paper Summarizer system prompt fully satisfies the PS2 sp
 
 ---
 
-## High-Level Flowchart
+## High-Level Flowchart (formatted in code)
 
 Start
   ↓
@@ -40,3 +40,4 @@ Rendering & Refinement
   → Ensure total summary ≤700 words
   ↓
 End
+
